@@ -4,7 +4,7 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 if(isset($_POST['message']) && isset($_POST['email']) && isset($_POST['name'])){
-  $to = "j.a.d.rubicon@gmail.com";
+  $to = " ";
   $subject = "GITHUB PORTFOLIO: ".$name;
   $headers = "From: " .$email. "\r\n";
 
